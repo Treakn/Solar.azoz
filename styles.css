@@ -463,6 +463,9 @@
 }
 
 @media (min-width:1024px) {
+    section{
+        padding: 0 0 0 140px;
+    }
     .sidenav{
         width: 120px;
     }
@@ -484,5 +487,14 @@
         color: #fff;
         padding: 0 16px;
         transition: .3s;
+        }
+        .learn-more p {
+            padding-left: 150px;
+        }
+        .section-3-top{
+            padding: 50px;
+        }
+        .solution{
+            text-align: center;
         }
 }
