@@ -483,6 +483,7 @@
         display: flex;
         justify-content: space-evenly;
         align-self: center;
+        gap: 100px;
        }
        .footer-menu{
         width: 60%;
@@ -491,9 +492,7 @@
 }
 
 @media (min-width:1024px) {
-    section{
-        padding: 0 0 0 140px;
-    }
+  
     .sidenav{
         width: 120px;
     }
