@@ -4,7 +4,10 @@
     --light: #f5f5f5;
     --dark: #2D2B2C;
 }
-
+body{
+    display: flex;
+    justify-content: center;
+}
 @font-face {
     font-family: 'bold';
     src: url('/fonts/FamiljenGrotesk-Bold.ttf'), url('/fonts/FamiljenGrotesk-Bold.ttf') format('truetype'), url('/fonts/FamiljenGrotesk-Bold.ttf') format('svg');
@@ -19,9 +22,7 @@
     font-style: normal;
 }
 
-section{
-    padding: 0 150px;
-}
+
 footer{
     padding: 0 50px;
 }
@@ -43,108 +44,5 @@ p , span {
     font-family: 'normal';
 }
 
-@media (min-width:0px) {
-    .toggle img{
-        width: 30px;
-    }
-    .toggle{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30px;
-        height: 50px;
-    }
-    .logo{
-        text-align: center;
-        z-index: 100;
-        background-color: var(--light);
-        padding-top: 30px;
-    }
-    section{
-        padding: 0 35px;
-    }
-    .sidenav{
-        width: 10px;
-       
-    }
-    .sidenav .logo{
-        display: none;
-    }
-    .nav-item img{
-        width: 30px;
-    }
-    .sidenav .nav-item{
-        display: none;
-    }
-    
-    .sidenav.active{
-        width: 310px;
-        overflow-y: scroll;
-    
-    }
-    .sidenav .toggle{
-        top: 10px
-    }
-    .sidenav.active .toggle{
-        top: 10px;
-    }
-    .sidenav.active .logo{
-        display: block;
-    }
-    .sidenav.active .nav-item{
-        display: flex;
-    }
 
-    /* section-1 */
-    .red{
-        color: var(--aten);
-        letter-spacing: 1.2px;
-    }
-    .section-1{
-        background-color: var(--light);
-        text-align: center;
-        padding: 0;
-    }
-    .section-1 h1{
-        padding: 100px 1em 30px 1em;
-    }
-    .header-img{
-        position: relative;
-        height: 200px;
-        background-image: url(/Images/header.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        filter: grayscale(.5);
-        z-index: 0;
-    }
-
-    .learn-more{
-        padding: 50px 0 30px 1em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .learn-text{
-        padding: 0 1em;
-        font-size: 16px;
-    }
-    .learn-text p{
-        letter-spacing: 1.2px;
-    }
-    .learn-btn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .learn-btn button{
-        background-color: var(--aten);
-        transform: rotateZ(90deg);
-        width: 100px;
-        height: 50px;
-        font-family: 'normal';
-        letter-spacing: 1.1px;
-        color: var(--light);
-    }
-}
-    /* end of section-1 */
+   
